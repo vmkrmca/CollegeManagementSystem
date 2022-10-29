@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_vertical"
+    android:background="@color/white"
     android:orientation="vertical">
 
     <EditText
@@ -15,6 +16,8 @@
         android:background="@drawable/edit_border"
         android:digits="0123456789"
         android:hint="@string/mobile_number"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
         android:inputType="phone"
         android:padding="@dimen/padding_12" />
 
@@ -28,7 +31,10 @@
         android:background="@drawable/edit_border"
         android:hint="@string/password"
         android:inputType="textPassword"
-        android:padding="@dimen/padding_12" />
+        android:padding="@dimen/padding_12"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        />
 
 
     <LinearLayout

@@ -1,14 +1,14 @@
-package com.deepak.collegemanagementsystem
+package com.deepak.collegemanagementapp.activities
 
 import android.app.Activity
 import android.os.Bundle
 import com.deepak.collegemanagementapp.R
 
-class StudentRegisterActivity : Activity() {
+class AdminDashBoardActivity : Activity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_register)
+        setContentView(R.layout.admin_dashboard)
     }
 
 }

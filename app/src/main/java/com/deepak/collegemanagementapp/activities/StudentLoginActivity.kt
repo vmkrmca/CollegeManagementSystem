@@ -1,4 +1,4 @@
-package com.deepak.collegemanagementsystem
+package com.deepak.collegemanagementapp.activities
 
 import android.app.Activity
 import android.content.Intent
@@ -24,7 +24,7 @@ class StudentLoginActivity : Activity(), View.OnClickListener {
         when(v?.id) {
 
             R.id.tvRegister ->{
-                startActivity(Intent(this@StudentLoginActivity,StudentRegisterActivity :: class.java))
+                startActivity(Intent(this@StudentLoginActivity, StudentRegisterActivity :: class.java))
             }
         }
     }

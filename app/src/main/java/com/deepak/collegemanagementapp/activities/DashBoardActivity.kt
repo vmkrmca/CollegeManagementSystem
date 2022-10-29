@@ -1,13 +1,11 @@
-package com.deepak.collegemanagementapp
+package com.deepak.collegemanagementapp.activities
 
 import android.app.Activity
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
-import com.deepak.collegemanagementsystem.AdminLoginActivity
-import com.deepak.collegemanagementsystem.StudentLoginActivity
+import com.deepak.collegemanagementapp.R
 
 class DashBoardActivity : Activity(), View.OnClickListener {
 
@@ -20,7 +18,7 @@ class DashBoardActivity : Activity(), View.OnClickListener {
         setContentView(R.layout.activity_dashboard)
 
         tvAdmin = findViewById(R.id.tvAdmin)
-        tvStudent = findViewById(R.id.tvAdmin)
+        tvStudent = findViewById(R.id.tvStudent)
 
         tvAdmin.setOnClickListener(this@DashBoardActivity)
         tvStudent.setOnClickListener(this@DashBoardActivity)

@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_vertical"
+    android:background="@color/white"
     android:orientation="vertical">
 
     <EditText
@@ -13,9 +14,12 @@
         android:layout_marginTop="@dimen/margin_10"
         android:layout_marginRight="@dimen/margin_25"
         android:background="@drawable/edit_border"
-        android:hint="Enter UserName"
+        android:hint="@string/username"
         android:inputType="textPersonName"
-        android:padding="@dimen/padding_12" />
+        android:padding="@dimen/padding_12"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        />
 
     <EditText
         android:id="@+id/etUserPassword"
@@ -25,9 +29,12 @@
         android:layout_marginTop="@dimen/margin_10"
         android:layout_marginRight="@dimen/margin_25"
         android:background="@drawable/edit_border"
-        android:hint="Enter UserPassword"
+        android:hint="@string/user_password"
         android:inputType="textPassword"
-        android:padding="@dimen/padding_12" />
+        android:padding="@dimen/padding_12"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        />
 
 
     <LinearLayout
@@ -46,7 +53,7 @@
             android:background="@drawable/btn_border"
             android:gravity="center"
             android:padding="@dimen/padding_12"
-            android:text="LOGIN"
+            android:text="@string/login"
             android:textColor="@color/white"
             android:textSize="@dimen/text_size_22"
             android:textStyle="bold" />
@@ -64,7 +71,7 @@
             android:background="@drawable/btn_border"
             android:gravity="center"
             android:padding="@dimen/padding_12"
-            android:text="CANCEL"
+            android:text="@string/cancel"
             android:textColor="@color/white"
             android:textSize="@dimen/text_size_22"
             android:textStyle="bold" />

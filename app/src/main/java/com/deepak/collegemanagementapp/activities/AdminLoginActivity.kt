@@ -1,4 +1,4 @@
-package com.deepak.collegemanagementsystem
+package com.deepak.collegemanagementapp.activities
 
 import android.app.Activity
 import android.content.Intent
@@ -40,7 +40,7 @@ class AdminLoginActivity : Activity(), View.OnClickListener {
 
                 if (userName == "ADMIN" && userPassword == "ADMIN"){
 
-                    startActivity(Intent(this@AdminLoginActivity,AdminDashBoardActivity :: class.java))
+                    startActivity(Intent(this@AdminLoginActivity, AdminDashBoardActivity :: class.java))
 
                 }else{
                     Toast.makeText(this@AdminLoginActivity,"Admin Crediantials are wrong please try again Later",Toast.LENGTH_SHORT).show()
