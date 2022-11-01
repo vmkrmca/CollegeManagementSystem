@@ -4,8 +4,9 @@ data class Student(
     var studMobileNumber: String,
     var studName: String,
     var studPassword: String,
-    val studGender: String,
-    val studCourse: String,
-    val studDOB: String,
-    val studAge : Int
+    var studGender: String,
+    var studCourse: String,
+    var studDOB: String,
+    var studAge : Int,
+    var studStatus : Int
 )

@@ -93,7 +93,7 @@ class StudentRegisterActivity : Activity(), View.OnClickListener,
                         userGender,
                         course,
                         userDOB,
-                        userAge)
+                        userAge,0)
 
                     var id = collegeDBHelper.insertStudRecord(student)
 
